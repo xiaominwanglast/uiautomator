@@ -1,0 +1,1478 @@
+2017-06-12 19:11:46 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-12 19:11:46 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['firstone.spiders'], 'BOT_NAME': 'firstone', 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4}
+2017-06-12 19:11:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-12 19:11:46 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-12 19:11:46 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-12 19:11:46 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-12 19:11:46 [scrapy.core.engine] INFO: Spider opened
+2017-06-12 19:11:46 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-12 19:11:46 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-12 19:11:46 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 229,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 57631,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 12, 11, 11, 46, 813000),
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 6, 12, 11, 11, 46, 618000)}
+2017-06-12 19:11:46 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-12 19:12:39 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-12 19:12:39 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-12 19:12:39 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-12 19:12:39 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-12 19:12:39 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-12 19:12:39 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-12 19:12:39 [scrapy.core.engine] INFO: Spider opened
+2017-06-12 19:12:39 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-12 19:12:39 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6024
+2017-06-12 19:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/alltop/index.html> (referer: None)
+2017-06-12 19:12:39 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-12 19:12:39 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 229,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 57648,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 12, 11, 12, 39, 954000),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 6, 12, 11, 12, 39, 768000)}
+2017-06-12 19:12:39 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 10:00:38 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 10:00:38 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 10:00:38 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 10:00:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 10:00:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 10:00:38 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 10:00:38 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 10:00:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 10:00:38 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 10:00:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/alltop/index.html> (referer: None)
+2017-06-13 10:02:25 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 10:02:25 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 10:02:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 10:02:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 10:02:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 10:02:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 10:02:25 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 10:02:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 10:02:25 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 10:02:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/alltop/index.html> (referer: None)
+2017-06-13 10:02:42 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-06-13 10:02:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://top.chinaz.com/alltop/index.html> (referer: None)
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 22, in parse
+    time.sleep(3)
+IOError: [Errno 4] Interrupted function call
+2017-06-13 10:02:42 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-06-13 10:02:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 229,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 57644,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 6, 13, 2, 2, 42, 667000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/IOError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 2, 2, 25, 944000)}
+2017-06-13 10:02:42 [scrapy.core.engine] INFO: Spider closed (shutdown)
+2017-06-13 10:02:54 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 10:02:54 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 10:02:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 10:02:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 10:02:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 10:02:54 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 10:02:54 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 10:02:54 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 10:02:54 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 10:02:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/alltop/index.html> (referer: None)
+2017-06-13 10:03:09 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-06-13 10:03:09 [scrapy.core.scraper] ERROR: Spider error processing <GET http://top.chinaz.com/alltop/index.html> (referer: None)
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 22, in parse
+    time.sleep(3)
+IOError: [Errno 4] Interrupted function call
+2017-06-13 10:03:09 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-06-13 10:03:09 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 229,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 57644,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 6, 13, 2, 3, 9, 883000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/IOError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 2, 2, 54, 903000)}
+2017-06-13 10:03:09 [scrapy.core.engine] INFO: Spider closed (shutdown)
+2017-06-13 10:03:27 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 10:03:27 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 10:03:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 10:03:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 10:03:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 10:03:27 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 10:03:27 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 10:03:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 10:03:27 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 10:03:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/alltop/index.html> (referer: None)
+2017-06-13 10:03:37 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-06-13 10:03:37 [scrapy.core.scraper] ERROR: Spider error processing <GET http://top.chinaz.com/alltop/index.html> (referer: None)
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 22, in parse
+    time.sleep(3)
+IOError: [Errno 4] Interrupted function call
+2017-06-13 10:03:37 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-06-13 10:03:37 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 229,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 57644,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 6, 13, 2, 3, 37, 948000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/IOError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 2, 3, 27, 643000)}
+2017-06-13 10:03:37 [scrapy.core.engine] INFO: Spider closed (shutdown)
+2017-06-13 10:08:45 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 10:08:45 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 10:08:45 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 10:08:45 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 10:08:45 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 10:08:45 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 10:08:45 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 10:08:45 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 10:08:45 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 10:08:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/alltop/index.html> (referer: None)
+2017-06-13 10:08:56 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-06-13 10:08:56 [scrapy.core.scraper] ERROR: Spider error processing <GET http://top.chinaz.com/alltop/index.html> (referer: None)
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 22, in parse
+    time.sleep(3)
+IOError: [Errno 4] Interrupted function call
+2017-06-13 10:08:56 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-06-13 10:08:56 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 229,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 57637,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 6, 13, 2, 8, 56, 579000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/IOError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 2, 8, 45, 693000)}
+2017-06-13 10:08:56 [scrapy.core.engine] INFO: Spider closed (shutdown)
+2017-06-13 10:09:02 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 10:09:02 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 10:09:02 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 10:09:02 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 10:09:02 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 10:09:02 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 10:09:02 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 10:09:02 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 10:09:02 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 10:09:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/alltop/index.html> (referer: None)
+2017-06-13 10:09:15 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-06-13 10:09:15 [scrapy.core.scraper] ERROR: Spider error processing <GET http://top.chinaz.com/alltop/index.html> (referer: None)
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 22, in parse
+    time.sleep(3)
+IOError: [Errno 4] Interrupted function call
+2017-06-13 10:09:15 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-06-13 10:09:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 229,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 57637,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 6, 13, 2, 9, 16, 83000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/IOError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 2, 9, 2, 778000)}
+2017-06-13 10:09:16 [scrapy.core.engine] INFO: Spider closed (shutdown)
+2017-06-13 11:14:54 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:14:54 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:14:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:14:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:14:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:14:54 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:14:54 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:14:54 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:14:54 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:14:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:14:55 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:14:55 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 14, 55, 173000),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 14, 54, 824000)}
+2017-06-13 11:14:55 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:16:23 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:16:23 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:16:23 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:16:23 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:16:23 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:16:23 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:16:23 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:16:23 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:16:23 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:16:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:16:24 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:16:24 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 16, 24, 219000),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 16, 23, 917000)}
+2017-06-13 11:16:24 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:17:03 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:17:03 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:17:03 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:17:03 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:17:03 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:17:03 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:17:03 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:17:03 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:17:03 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:17:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:17:04 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:17:04 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 17, 4, 255000),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 17, 3, 952000)}
+2017-06-13 11:17:04 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:17:44 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:17:44 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:17:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:17:45 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:17:45 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:17:45 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:17:45 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:17:45 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:17:45 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:17:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:17:45 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:17:45 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 17, 45, 331000),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 17, 45, 27000)}
+2017-06-13 11:17:45 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:19:38 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:19:38 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:19:38 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:19:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:19:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:19:38 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:19:38 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:19:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:19:38 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:19:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:19:39 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:19:39 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 19, 39, 50000),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 19, 38, 690000)}
+2017-06-13 11:19:39 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:20:58 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:20:58 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:20:58 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:20:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:20:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:20:58 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:20:58 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:20:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:20:58 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:20:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:20:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:20:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 20, 59, 119000),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 20, 58, 797000)}
+2017-06-13 11:20:59 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:22:57 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:22:57 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:22:57 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:22:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:22:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:22:58 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:22:58 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:22:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:22:58 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:22:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:22:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 23, in parse
+    print li.extract()
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u200b' in position 388: illegal multibyte sequence
+2017-06-13 11:22:58 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:22:58 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 22, 58, 586000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/UnicodeEncodeError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 22, 58, 124000)}
+2017-06-13 11:22:58 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:23:19 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:23:19 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:23:19 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:23:19 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:23:19 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:23:19 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:23:19 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:23:19 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:23:19 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:23:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:23:21 [scrapy.core.scraper] ERROR: Spider error processing <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 22, in parse
+    print li.extract()
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u200b' in position 388: illegal multibyte sequence
+2017-06-13 11:23:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:23:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 23, 21, 749000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/UnicodeEncodeError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 23, 19, 806000)}
+2017-06-13 11:23:21 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:24:30 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:24:30 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:24:30 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:24:30 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:24:30 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:24:30 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:24:30 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:24:30 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:24:30 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:24:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:24:31 [scrapy.core.scraper] ERROR: Spider error processing <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 22, in parse
+    print li.extract()
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u200b' in position 388: illegal multibyte sequence
+2017-06-13 11:24:31 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:24:31 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 24, 31, 171000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/UnicodeEncodeError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 24, 30, 729000)}
+2017-06-13 11:24:31 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:25:08 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:25:08 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:25:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:25:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:25:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:25:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:25:08 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:25:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:25:08 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:25:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:25:09 [scrapy.core.scraper] ERROR: Spider error processing <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 23, in parse
+    print Selector(li).xpath('//div[@class="count"]/text()').extract()
+  File "C:\Python27\lib\site-packages\scrapy\selector\unified.py", line 67, in __init__
+    text = response.text
+AttributeError: text
+2017-06-13 11:25:09 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:25:09 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 25, 9, 267000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/AttributeError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 25, 8, 901000)}
+2017-06-13 11:25:09 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:25:46 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:25:46 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:25:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:25:46 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:25:46 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:25:46 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:25:46 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:25:46 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:25:46 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:25:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:25:46 [scrapy.core.scraper] ERROR: Spider error processing <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 23, in parse
+    print Selector(li.text).xpath('//div[@class="count"]/text()').extract()
+AttributeError: text
+2017-06-13 11:25:47 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:25:47 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 25, 47, 7000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/AttributeError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 25, 46, 640000)}
+2017-06-13 11:25:47 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:26:15 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:26:15 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:26:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:26:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:26:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:26:15 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:26:15 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:26:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:26:15 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:26:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:26:15 [scrapy.core.scraper] ERROR: Spider error processing <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 23, in parse
+    print li.extract().xpath('//div[@class="count"]/text()')
+AttributeError: 'unicode' object has no attribute 'xpath'
+2017-06-13 11:26:16 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:26:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 26, 16, 31000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/AttributeError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 26, 15, 658000)}
+2017-06-13 11:26:16 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:27:52 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:27:52 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:27:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:27:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:27:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:27:52 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:27:52 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:27:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:27:52 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:27:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:27:53 [scrapy.core.scraper] ERROR: Spider error processing <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 26, in parse_item
+    print li.extract()
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u200b' in position 388: illegal multibyte sequence
+2017-06-13 11:27:53 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:27:53 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 27, 53, 211000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/UnicodeEncodeError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 27, 52, 803000)}
+2017-06-13 11:27:53 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:37:45 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:37:45 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:37:45 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:37:45 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:37:45 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:37:45 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:37:45 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:37:45 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:37:45 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:37:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:37:46 [scrapy.core.scraper] ERROR: Spider error processing <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 23, in parse
+    print li.extract()
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u200b' in position 388: illegal multibyte sequence
+2017-06-13 11:37:46 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:37:46 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 37, 46, 764000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/UnicodeEncodeError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 37, 45, 466000)}
+2017-06-13 11:37:46 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:38:25 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:38:25 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:38:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:38:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:38:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:38:25 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:38:25 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:38:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:38:25 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:38:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:38:25 [scrapy.core.scraper] ERROR: Spider error processing <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\wxm\pycharm\python\dfttapptest\firstone\firstone\spiders\firstone_spider.py", line 23, in parse
+    print li.extract()
+UnicodeEncodeError: 'gbk' codec can't encode character u'\u200b' in position 388: illegal multibyte sequence
+2017-06-13 11:38:25 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:38:25 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 38, 25, 984000),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/UnicodeEncodeError': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 38, 25, 593000)}
+2017-06-13 11:38:25 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:39:46 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:39:46 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:39:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:39:46 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:39:46 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:39:46 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:39:46 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:39:46 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:39:46 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:39:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:39:47 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:39:47 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 39, 47, 352000),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 39, 46, 399000)}
+2017-06-13 11:39:47 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 11:59:53 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 11:59:53 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 11:59:53 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 11:59:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 11:59:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 11:59:53 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 11:59:53 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 11:59:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 11:59:53 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 11:59:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://alexa.chinaz.com/Global/index_2.html> (referer: None)
+2017-06-13 11:59:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 11:59:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 233,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 80523,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 3, 59, 59, 456000),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 6, 13, 3, 59, 53, 922000)}
+2017-06-13 11:59:59 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 15:57:58 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 15:57:58 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 15:57:58 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 15:57:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 15:57:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 15:57:59 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 15:57:59 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 15:57:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 15:57:59 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 15:57:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/diqu/index_ShangHai.html> (referer: None)
+2017-06-13 15:58:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/diqu/index_ShangHai_3.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 15:58:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/diqu/index_ShangHai_2.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 15:58:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/diqu/index_ShangHai.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 15:58:14 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 15:58:14 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1119,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 275692,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 7, 58, 14, 686000),
+ 'log_count/DEBUG': 5,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2017, 6, 13, 7, 57, 59, 89000)}
+2017-06-13 15:58:14 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-06-13 16:01:06 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: firstone)
+2017-06-13 16:01:06 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'firstone.spiders', 'SPIDER_MODULES': ['firstone.spiders'], 'LOG_FILE': 'log.txt', 'DOWNLOAD_DELAY': 4, 'BOT_NAME': 'firstone'}
+2017-06-13 16:01:06 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-06-13 16:01:06 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-13 16:01:06 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-13 16:01:06 [scrapy.middleware] INFO: Enabled item pipelines:
+['firstone.pipelines.FirstonePipeline']
+2017-06-13 16:01:06 [scrapy.core.engine] INFO: Spider opened
+2017-06-13 16:01:06 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 16:01:06 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-13 16:01:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/diqu/index_ShangHai.html> (referer: None)
+2017-06-13 16:01:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/diqu/index_ShangHai_2.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:01:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com/diqu/index_ShangHai.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:01:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_yundaex.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:01:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_sto.cn.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:01:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_yto.net.cn.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:01:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_37.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:01:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_panda.tv.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:01:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_lvmama.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:01:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//site_flights.ctrip.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:01:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_duote.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:02:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//site_qq.ip138.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:02:06 [scrapy.extensions.logstats] INFO: Crawled 12 pages (at 12 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 16:02:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//site_tianqi.2345.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:02:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_w3school.com.cn.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:02:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_yingjiesheng.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:02:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//site_fund.eastmoney.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:02:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_pchome.net.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:02:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_61.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:02:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_battlenet.com.cn.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:02:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//site_quote.eastmoney.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:02:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_ximalaya.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:02:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_xinshipu.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:02:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//site_dict.hjenglish.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:02:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//site_bbs.hupu.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_hujiang.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:06 [scrapy.extensions.logstats] INFO: Crawled 25 pages (at 13 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 16:03:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_yhd.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_jiayuan.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_hjenglish.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_cnblogs.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_guancha.cn.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_pps.tv.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_baixing.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_51job.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_58pic.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_anjuke.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_dianping.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:03:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_eastday.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_manhuatai.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:04:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//site_you.ctrip.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:04:06 [scrapy.extensions.logstats] INFO: Crawled 39 pages (at 14 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 16:04:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//site_guba.eastmoney.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:04:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_hupu.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:04:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_qidian.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:04:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_dict.cn.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:04:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_ctrip.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:04:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_yxdown.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:04:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_tudou.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:04:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_pptv.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:04:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_eastmoney.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:05:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_2345.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai.html)
+2017-06-13 16:05:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//site_so.ooopic.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:05:06 [scrapy.extensions.logstats] INFO: Crawled 50 pages (at 11 pages/min), scraped 0 items (at 0 items/min)
+2017-06-13 16:05:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_sdo.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:05:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//site_dianying.2345.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:05:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_y3600.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:05:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_hydcd.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:05:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_jiameng.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:05:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_ikea.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:05:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_stockstar.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:05:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_tieyou.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:05:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_verycd.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:05:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_mianbao99.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:05:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_ooopic.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:05:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_wdzj.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:06:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.chinaz.com//Html/site_jia.com.html> (referer: http://top.chinaz.com/diqu/index_ShangHai_2.html)
+2017-06-13 16:06:02 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-06-13 16:06:02 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 18589,
+ 'downloader/request_count': 63,
+ 'downloader/request_method_count/GET': 63,
+ 'downloader/response_bytes': 2386134,
+ 'downloader/response_count': 63,
+ 'downloader/response_status_count/200': 63,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 6, 13, 8, 6, 2, 698000),
+ 'log_count/DEBUG': 64,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 2,
+ 'response_received_count': 63,
+ 'scheduler/dequeued': 63,
+ 'scheduler/dequeued/memory': 63,
+ 'scheduler/enqueued': 63,
+ 'scheduler/enqueued/memory': 63,
+ 'start_time': datetime.datetime(2017, 6, 13, 8, 1, 6, 968000)}
+2017-06-13 16:06:02 [scrapy.core.engine] INFO: Spider closed (finished)

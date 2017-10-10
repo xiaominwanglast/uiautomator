@@ -1,0 +1,3 @@
+#coding:utf-8
+import base64
+print base64.b64decode('Vkc5MVZHbGhid2xFUmxSVVFXNWtjbTlwWkFsb2RXRjNaV2t4TnpBMk1qWUpRVzVrY205cFpDQTBMalF1TWdsdWRXeHNDV1F5TXpKaE1qVm1NV0kwTVRGbFpqZ0pkMmxtYVE9PQ==').decode('utf-8')

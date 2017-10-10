@@ -1,0 +1,17 @@
+X-Cache-Status: MISS
+Via: cache19.l2et2-1[0,200-0,H], cache9.l2et2-1[1,0], kunlun5.cn115[2,200-0,M], kunlun2.cn115[3,0]
+X-Swift-Cachetime: 31403228
+X-Cache: MISS TCP_MISS dirn:11:102697287
+Content-Encoding: gzip
+Eagleid: 7250ae4214962820004131443e
+Age: 132772
+Expires: Wed, 30 May 2018 13:00:28 GMT
+Vary: Accept-Encoding
+X-Swift-Savetime: Thu, 01 Jun 2017 01:53:20 GMT
+Server: Tengine
+Last-Modified: Fri, 06 Jan 2017 10:04:24 GMT
+Etag: W/"17-5456a247c0e45"
+Cache-Control: max-age=31536000
+Date: Tue, 30 May 2017 13:00:28 GMT
+Content-Type: text/plain
+Timing-Allow-Origin: *

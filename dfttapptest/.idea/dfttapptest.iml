@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Python 2.7.14 (C:\Python27\python.exe)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="guangdong_android_GUI" />
+    <orderEntry type="module" module-name="guangdong_android_warning" />
+    <orderEntry type="module" module-name="kuaibao_android_warning" />
+    <orderEntry type="module" module-name="kuaibao_android_GUI" />
+    <orderEntry type="module" module-name="1.6.0android" />
+    <orderEntry type="module" module-name="TQKB_click" />
+    <orderEntry type="module" module-name="android_GUI" />
+    <orderEntry type="module" module-name="android_warning" />
+    <orderEntry type="module" module-name="click" />
+    <orderEntry type="module" module-name="real_inter" />
+    <orderEntry type="module" module-name="Top_inter" />
+    <orderEntry type="module" module-name="1.7.0interandroid" />
+    <orderEntry type="module" module-name="Scrapy_project" />
+    <orderEntry type="module" module-name="Top20" />
+  </component>
+</module>

@@ -1,0 +1,12 @@
+Via: cache18.l2et2-1[243,200-0,M], cache11.l2et2-1[245,0], kunlun7.cn115[247,200-0,M], kunlun4.cn115[247,0]
+X-Swift-Cachetime: 689
+X-Cache: MISS TCP_MISS dirn:6:297113691
+Content-Encoding: gzip
+Eagleid: 7250ae4414963221249585368e
+Vary: Accept-Encoding
+Server: Tengine
+X-Swift-Savetime: Thu, 01 Jun 2017 13:02:05 GMT
+Cache-Control: max-age=600
+Date: Thu, 01 Jun 2017 13:03:34 GMT
+Content-Type: text/html; charset=UTF-8
+Timing-Allow-Origin: *

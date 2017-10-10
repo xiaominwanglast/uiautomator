@@ -1,0 +1,25 @@
+1499053679077	geckodriver	INFO	Listening on 127.0.0.1:10729
+1499053681105	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.Tul7nKolcYwM
+1499053681107	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499053681253	geckodriver::marionette	INFO	Connecting to Marionette on localhost:10747
+1499053683538	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499053687914	Marionette	INFO	Listening on port 10747
+1499053705248	Marionette	INFO	Ceased listening
+/@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://testmini.eastday.com/assets/js/global.js, line 332: TypeError: window.location is null
+JavaScript error: http://dup.baidustatic.com/js/ds.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+1102003993501966817381_1484820985209 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyt&json=1&p=3&sid=&req=2&csor=3&pwd=py&cb=jQuery1102003993501966817381_1484820985209&_=1484820985213, line 1: TypeError: jQuery1102003993501966817381_1484820985209 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyth&json=1&p=3&sid=&req=2&csor=4&pwd=pyt&cb=jQuery1102003993501966817381_1484820985209&_=1484820985214, line 1: TypeError: jQuery1102003993501966817381_1484820985209 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pytho&json=1&p=3&sid=&req=2&csor=5&pwd=pyth&cb=jQuery1102003993501966817381_1484820985209&_=1484820985215, line 1: TypeError: jQuery1102003993501966817381_1484820985209 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python&json=1&p=3&sid=&req=2&csor=6&pwd=pytho&cb=jQuery1102003993501966817381_1484820985209&_=1484820985216, line 1: TypeError: jQuery1102003993501966817381_1484820985209 is not a function
+1484821105432	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 34240] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34240] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+onjs/toolkit/loader.js -> resource://devtools/client/inspector/breadcrumbs.js, line 486: TypeError: this.handleMouseLeave is not a function
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/breadcrumbs.js, line 486: TypeError: this.handleMouseLeave is not a function
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/breadcrumbs.js, line 486: TypeError: this.handleMouseLeave is not a function
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/breadcrumbs.js, line 486: TypeError: this.handleMouseLeave is not a function
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/breadcrumbs.js, line 486: TypeError: this.handleMouseLeave is not a function
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/breadcrumbs.js, line 486: TypeError: this.handleMouseLeave is not a function
+[Child 38896] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

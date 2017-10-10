@@ -1,0 +1,92 @@
+Thu, 01 Jun 2017 21:04:44 log.py[line:128] INFO Scrapy 1.3.3 started (bot: PornHub)
+Thu, 01 Jun 2017 21:04:44 log.py[line:131] INFO Overridden settings: {'NEWSPIDER_MODULE': 'PornHub.spiders', 'ROBOTSTXT_OBEY': True, 'CONCURRENT_REQUESTS': 20, 'SPIDER_MODULES': ['PornHub.spiders'], 'BOT_NAME': 'PornHub', 'REDIRECT_ENABLED': False, 'DOWNLOAD_DELAY': 1}
+Thu, 01 Jun 2017 21:04:44 middleware.py[line:53] INFO Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+Thu, 01 Jun 2017 21:04:44 middleware.py[line:53] INFO Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'PornHub.middlewares.UserAgentMiddleware',
+ 'PornHub.middlewares.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+Thu, 01 Jun 2017 21:04:44 middleware.py[line:53] INFO Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+Thu, 01 Jun 2017 21:04:44 middleware.py[line:53] INFO Enabled item pipelines:
+['PornHub.pipelines.PornhubMongoDBPipeline']
+Thu, 01 Jun 2017 21:04:44 engine.py[line:258] INFO Spider opened
+Thu, 01 Jun 2017 21:04:44 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Thu, 01 Jun 2017 21:04:44 telnet.py[line:60] DEBUG Telnet console listening on 127.0.0.1:6023
+Thu, 01 Jun 2017 21:04:45 engine.py[line:240] DEBUG Crawled (200) <GET https://www.pornhub.com/robots.txt> (referer: None)
+Thu, 01 Jun 2017 21:04:46 engine.py[line:240] DEBUG Crawled (200) <GET https://www.pornhub.com/> (referer: None)
+Thu, 01 Jun 2017 21:04:46 pornHubSpider.py[line:28] DEBUG request url:------>https://www.pornhub.com/
+Thu, 01 Jun 2017 21:04:46 pornHubSpider.py[line:36] DEBUG [u'/video?page=2']
+Thu, 01 Jun 2017 21:04:46 pornHubSpider.py[line:39] DEBUG  next page:---------->https://www.pornhub.com//video?page=2
+Thu, 01 Jun 2017 21:04:46 engine.py[line:240] DEBUG Crawled (200) <GET https://www.pornhub.com/video?o=tr> (referer: None)
+Thu, 01 Jun 2017 21:04:47 pornHubSpider.py[line:28] DEBUG request url:------>https://www.pornhub.com/video?o=tr
+Thu, 01 Jun 2017 21:04:47 dupefilters.py[line:70] DEBUG Filtered duplicate request: <GET https://www.pornhub.com/embed/ph583b578f3c8c7> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+Thu, 01 Jun 2017 21:04:47 pornHubSpider.py[line:36] DEBUG [u'/video?o=tr&page=2']
+Thu, 01 Jun 2017 21:04:47 pornHubSpider.py[line:39] DEBUG  next page:---------->https://www.pornhub.com//video?o=tr&page=2
+Thu, 01 Jun 2017 21:04:47 engine.py[line:240] DEBUG Crawled (200) <GET https://www.pornhub.com/recommended> (referer: None)
+Thu, 01 Jun 2017 21:04:48 pornHubSpider.py[line:28] DEBUG request url:------>https://www.pornhub.com/recommended
+Thu, 01 Jun 2017 21:04:48 pornHubSpider.py[line:36] DEBUG [u'/recommended?page=2']
+Thu, 01 Jun 2017 21:04:48 pornHubSpider.py[line:39] DEBUG  next page:---------->https://www.pornhub.com//recommended?page=2
+Thu, 01 Jun 2017 21:04:48 engine.py[line:240] DEBUG Crawled (200) <GET https://www.pornhub.com/video?o=ht> (referer: None)
+Thu, 01 Jun 2017 21:04:48 pornHubSpider.py[line:28] DEBUG request url:------>https://www.pornhub.com/video?o=ht
+Thu, 01 Jun 2017 21:04:48 pornHubSpider.py[line:36] DEBUG [u'/video?o=ht&page=2']
+Thu, 01 Jun 2017 21:04:48 pornHubSpider.py[line:39] DEBUG  next page:---------->https://www.pornhub.com//video?o=ht&page=2
+Thu, 01 Jun 2017 21:04:50 engine.py[line:240] DEBUG Crawled (200) <GET https://www.pornhub.com/video?o=mv> (referer: None)
+Thu, 01 Jun 2017 21:04:50 pornHubSpider.py[line:28] DEBUG request url:------>https://www.pornhub.com/video?o=mv
+Thu, 01 Jun 2017 21:04:50 pornHubSpider.py[line:36] DEBUG [u'/video?o=mv&page=2']
+Thu, 01 Jun 2017 21:04:50 pornHubSpider.py[line:39] DEBUG  next page:---------->https://www.pornhub.com//video?o=mv&page=2
+Thu, 01 Jun 2017 21:04:51 engine.py[line:240] DEBUG Crawled (200) <GET https://www.pornhub.com/embed/ph583b578f3c8c7> (referer: https://www.pornhub.com/)
+Thu, 01 Jun 2017 21:04:51 pornHubSpider.py[line:46] DEBUG PH信息的JSON:
+Thu, 01 Jun 2017 21:04:51 pornHubSpider.py[line:47] DEBUG [u' {"disable_sharebar":0,"htmlPauseRoll":"false","htmlPostRoll":"false","embedCode":"<iframe src=\\"https:\\/\\/www.pornhub.com\\/embed\\/ph583b578f3c8c7\\" frameborder=\\"0\\" width=\\"560\\" height=\\"340\\" scrolling=\\"no\\" allowfullscreen><\\/iframe>","autoplay":0,"autoreplay":"false","hidePostPauseRoll":"false","video_unavailable":"false","pauseroll_url":"","postroll_url":"","video_duration":"2330","actionTags":"","link_url":"https:\\/\\/www.pornhub.com\\/view_video.php?viewkey=ph583b578f3c8c7","related_url":"https:\\/\\/www.pornhub.com\\/video\\/player_related_datas?id=97455332","image_url":"https:\\/\\/ci.phncdn.com\\/videos\\/201611\\/27\\/97455332\\/original\\/(m=eaAaGw-aaaaa)5.jpg","video_title":"Sexual Healing Massage","defaultQuality":[720,480,240,1080],"vcServerUrl":"/svvt/add?stype=evv&svalue=97455332&snonce=5las5wlcw1hjlitv&skey=e145b6c03c7ab632f06b0863e48c2a8cd844c765006bf0facc975a61df91e404&stime=1496322289","quality_480p":"https:\\/\\/de.phncdn.com\\/videos\\/201611\\/27\\/97455332\\/480P_600K_97455332.mp4?ttl=1496325889&ri=2252800&rs=536&hash=1e6a9487d301322a00402f8d9e97d188","mediaDefinitions":[{"defaultQuality":false,"format":"","quality":"480","videoUrl":"https:\\/\\/de.phncdn.com\\/videos\\/201611\\/27\\/97455332\\/480P_600K_97455332.mp4?ttl=1496325889&ri=2252800&rs=536&hash=1e6a9487d301322a00402f8d9e97d188"}],"video_unavailable_country":"false","toprated_url":"https:\\/\\/www.pornhub.com\\/video?o=tr&t=m","mostviewed_url":"https:\\/\\/www.pornhub.com\\/video?o=mv&t=m","browser_url":"https:\\/\\/www.pornhub.com\\/","morefromthisuser_url":"","options":"iframe","cdn":"highwinds","startLagThreshold":1000,"outBufferLagThreshold":2000,"appId":"1111","service":"","mp4_seek":"start","cdnProvider":"hw","thumbs":{"samplingFrequency":9,"type":"normal","cdnType":"regular","urlPattern":"https:\\/\\/ci.phncdn.com\\/videos\\/201611\\/27\\/97455332\\/timeline\\/120x90\\/S{10}.jpg","thumbHeight":"90","thumbWidth":"120"}}']
+Thu, 01 Jun 2017 21:04:51 pornHubSpider.py[line:59] INFO duration:2330 title:Sexual Healing Massage image_url:https://ci.phncdn.com/videos/201611/27/97455332/original/(m=eaAaGw-aaaaa)5.jpg link_url:https://www.pornhub.com/view_video.php?viewkey=ph583b578f3c8c7
+Thu, 01 Jun 2017 21:04:51 scraper.py[line:237] DEBUG Scraped from <200 https://www.pornhub.com/embed/ph583b578f3c8c7>
+{'image_url': u'https://ci.phncdn.com/videos/201611/27/97455332/original/(m=eaAaGw-aaaaa)5.jpg',
+ 'link_url': u'https://www.pornhub.com/view_video.php?viewkey=ph583b578f3c8c7',
+ 'quality_480p': u'https://de.phncdn.com/videos/201611/27/97455332/480P_600K_97455332.mp4?ttl=1496325889&ri=2252800&rs=536&hash=1e6a9487d301322a00402f8d9e97d188',
+ 'video_duration': u'2330',
+ 'video_title': u'Sexual Healing Massage'}
+Thu, 01 Jun 2017 21:04:52 engine.py[line:240] DEBUG Crawled (200) <GET https://www.pornhub.com/embed/ph5912777d892fd> (referer: https://www.pornhub.com/)
+Thu, 01 Jun 2017 21:04:52 pornHubSpider.py[line:46] DEBUG PH信息的JSON:
+Thu, 01 Jun 2017 21:04:52 pornHubSpider.py[line:47] DEBUG [u' {"disable_sharebar":0,"htmlPauseRoll":"false","htmlPostRoll":"false","embedCode":"<iframe src=\\"https:\\/\\/www.pornhub.com\\/embed\\/ph5912777d892fd\\" frameborder=\\"0\\" width=\\"560\\" height=\\"340\\" scrolling=\\"no\\" allowfullscreen><\\/iframe>","autoplay":0,"autoreplay":"false","hidePostPauseRoll":"false","video_unavailable":"false","pauseroll_url":"","postroll_url":"","video_duration":"436","actionTags":"","link_url":"https:\\/\\/www.pornhub.com\\/view_video.php?viewkey=ph5912777d892fd","related_url":"https:\\/\\/www.pornhub.com\\/video\\/player_related_datas?id=115960831","image_url":"https:\\/\\/bi.phncdn.com\\/videos\\/201705\\/10\\/115960831\\/original\\/(m=eaAaGw-aaaaa)1.jpg","video_title":"Tiffany back seat deepthroating my bbc","defaultQuality":[720,480,240,1080],"vcServerUrl":"/svvt/add?stype=evv&svalue=115960831&snonce=4kzka1zsm6clfuki&skey=06b89dedf7a60e9941695ffa1d49fc355c8ddd34e9ca3cff62245953786a8aa2&stime=1496322291","quality_480p":"https:\\/\\/ce.phncdn.com\\/videos\\/201705\\/10\\/115960831\\/480P_600K_115960831.mp4?a5dcae8e1adc0bdaed975f0d60fb5e050d523df0cca6435032db1bab0a4b451d8a412585437d61ae6c91c405b28a32b18ac4323564cd20053b79b92aac6efd2e0cf98fbab1c03b586e178a57cd6489eccb5a21c8eede94c7871c0ddbe7e5669b7129cc78ba68314a280ea6a098823475cb7e6c4d4738de0e35e9ec","mediaDefinitions":[{"defaultQuality":false,"format":"","quality":"480","videoUrl":"https:\\/\\/ce.phncdn.com\\/videos\\/201705\\/10\\/115960831\\/480P_600K_115960831.mp4?a5dcae8e1adc0bdaed975f0d60fb5e050d523df0cca6435032db1bab0a4b451d8a412585437d61ae6c91c405b28a32b18ac4323564cd20053b79b92aac6efd2e0cf98fbab1c03b586e178a57cd6489eccb5a21c8eede94c7871c0ddbe7e5669b7129cc78ba68314a280ea6a098823475cb7e6c4d4738de0e35e9ec"}],"video_unavailable_country":"false","toprated_url":"https:\\/\\/www.pornhub.com\\/video?o=tr&t=m","mostviewed_url":"https:\\/\\/www.pornhub.com\\/video?o=mv&t=m","browser_url":"https:\\/\\/www.pornhub.com\\/","morefromthisuser_url":"\\/users\\/dicksuckerzxd\\/videos","options":"iframe","cdn":"edgecast","startLagThreshold":1000,"outBufferLagThreshold":2000,"appId":"1111","service":"","cdnProvider":"ec","mp4_seek":"ms","thumbs":{"samplingFrequency":4,"type":"normal","cdnType":"regular","urlPattern":"https:\\/\\/bi.phncdn.com\\/videos\\/201705\\/10\\/115960831\\/timeline\\/120x90\\/S{4}.jpg","thumbHeight":"90","thumbWidth":"120"}}']
+Thu, 01 Jun 2017 21:04:52 pornHubSpider.py[line:59] INFO duration:436 title:Tiffany back seat deepthroating my bbc image_url:https://bi.phncdn.com/videos/201705/10/115960831/original/(m=eaAaGw-aaaaa)1.jpg link_url:https://www.pornhub.com/view_video.php?viewkey=ph5912777d892fd
+Thu, 01 Jun 2017 21:04:52 scraper.py[line:237] DEBUG Scraped from <200 https://www.pornhub.com/embed/ph5912777d892fd>
+{'image_url': u'https://bi.phncdn.com/videos/201705/10/115960831/original/(m=eaAaGw-aaaaa)1.jpg',
+ 'link_url': u'https://www.pornhub.com/view_video.php?viewkey=ph5912777d892fd',
+ 'quality_480p': u'https://ce.phncdn.com/videos/201705/10/115960831/480P_600K_115960831.mp4?a5dcae8e1adc0bdaed975f0d60fb5e050d523df0cca6435032db1bab0a4b451d8a412585437d61ae6c91c405b28a32b18ac4323564cd20053b79b92aac6efd2e0cf98fbab1c03b586e178a57cd6489eccb5a21c8eede94c7871c0ddbe7e5669b7129cc78ba68314a280ea6a098823475cb7e6c4d4738de0e35e9ec',
+ 'video_duration': u'436',
+ 'video_title': u'Tiffany back seat deepthroating my bbc'}
+Thu, 01 Jun 2017 21:04:53 engine.py[line:240] DEBUG Crawled (200) <GET https://www.pornhub.com/embed/ph592d9b9da7b98> (referer: https://www.pornhub.com/)
+Thu, 01 Jun 2017 21:04:53 pornHubSpider.py[line:46] DEBUG PH信息的JSON:
+Thu, 01 Jun 2017 21:04:53 pornHubSpider.py[line:47] DEBUG [u' {"disable_sharebar":0,"htmlPauseRoll":"false","htmlPostRoll":"false","embedCode":"<iframe src=\\"https:\\/\\/www.pornhub.com\\/embed\\/ph592d9b9da7b98\\" frameborder=\\"0\\" width=\\"560\\" height=\\"340\\" scrolling=\\"no\\" allowfullscreen><\\/iframe>","autoplay":0,"autoreplay":"false","hidePostPauseRoll":"false","video_unavailable":"false","pauseroll_url":"","postroll_url":"","video_duration":"873","actionTags":"","link_url":"https:\\/\\/www.pornhub.com\\/view_video.php?viewkey=ph592d9b9da7b98","related_url":"https:\\/\\/www.pornhub.com\\/video\\/player_related_datas?id=118463761","image_url":"https:\\/\\/ci.phncdn.com\\/videos\\/201705\\/30\\/118463761\\/original\\/(m=eaAaGw-aaaaa)7.jpg","video_title":"Fitness Rooms Naughty young girls cock hungry threesome with gym hunk","defaultQuality":[720,480,240,1080],"vcServerUrl":"/svvt/add?stype=evv&svalue=118463761&snonce=h7zspdhzwkgjt18p&skey=c7246a35177202b9f1459b4cc68ffe233321beb255d57be091bc9c7a20ceadd1&stime=1496322292","quality_480p":"https:\\/\\/de.phncdn.com\\/videos\\/201705\\/30\\/118463761\\/480P_600K_118463761.mp4?ttl=1496325892&ri=1638400&rs=832&hash=821a6d17a2d463f87230facea6962b43","mediaDefinitions":[{"defaultQuality":false,"format":"","quality":"480","videoUrl":"https:\\/\\/de.phncdn.com\\/videos\\/201705\\/30\\/118463761\\/480P_600K_118463761.mp4?ttl=1496325892&ri=1638400&rs=832&hash=821a6d17a2d463f87230facea6962b43"}],"video_unavailable_country":"false","toprated_url":"https:\\/\\/www.pornhub.com\\/video?o=tr&t=m","mostviewed_url":"https:\\/\\/www.pornhub.com\\/video?o=mv&t=m","browser_url":"https:\\/\\/www.pornhub.com\\/","morefromthisuser_url":"\\/users\\/sexyhub\\/videos","options":"iframe","cdn":"highwinds","startLagThreshold":1000,"outBufferLagThreshold":2000,"appId":"1111","service":"tubes_cdn_service","mp4_seek":"start","cdnProvider":"hw","hotspots":[],"thumbs":{"samplingFrequency":4,"type":"normal","cdnType":"regular","urlPattern":"https:\\/\\/ci.phncdn.com\\/videos\\/201705\\/30\\/118463761\\/timeline\\/120x90\\/S{8}.jpg","thumbHeight":"90","thumbWidth":"120"}}']
+Thu, 01 Jun 2017 21:04:53 pornHubSpider.py[line:59] INFO duration:873 title:Fitness Rooms Naughty young girls cock hungry threesome with gym hunk image_url:https://ci.phncdn.com/videos/201705/30/118463761/original/(m=eaAaGw-aaaaa)7.jpg link_url:https://www.pornhub.com/view_video.php?viewkey=ph592d9b9da7b98
+Thu, 01 Jun 2017 21:04:53 scraper.py[line:237] DEBUG Scraped from <200 https://www.pornhub.com/embed/ph592d9b9da7b98>
+{'image_url': u'https://ci.phncdn.com/videos/201705/30/118463761/original/(m=eaAaGw-aaaaa)7.jpg',
+ 'link_url': u'https://www.pornhub.com/view_video.php?viewkey=ph592d9b9da7b98',
+ 'quality_480p': u'https://de.phncdn.com/videos/201705/30/118463761/480P_600K_118463761.mp4?ttl=1496325892&ri=1638400&rs=832&hash=821a6d17a2d463f87230facea6962b43',
+ 'video_duration': u'873',
+ 'video_title': u'Fitness Rooms Naughty young girls cock hungry threesome with gym hunk'}
+Thu, 01 Jun 2017 21:04:55 engine.py[line:240] DEBUG Crawled (200) <GET https://www.pornhub.com/embed/ph590c790943b46> (referer: https://www.pornhub.com/)
+Thu, 01 Jun 2017 21:04:55 pornHubSpider.py[line:46] DEBUG PH信息的JSON:
+Thu, 01 Jun 2017 21:04:55 pornHubSpider.py[line:47] DEBUG [u' {"disable_sharebar":0,"htmlPauseRoll":"false","htmlPostRoll":"false","embedCode":"<iframe src=\\"https:\\/\\/www.pornhub.com\\/embed\\/ph590c790943b46\\" frameborder=\\"0\\" width=\\"560\\" height=\\"340\\" scrolling=\\"no\\" allowfullscreen><\\/iframe>","autoplay":0,"autoreplay":"false","hidePostPauseRoll":"false","video_unavailable":"false","pauseroll_url":"","postroll_url":"","video_duration":"224","actionTags":"","link_url":"https:\\/\\/www.pornhub.com\\/view_video.php?viewkey=ph590c790943b46","related_url":"https:\\/\\/www.pornhub.com\\/video\\/player_related_datas?id=115421081","image_url":"https:\\/\\/ci.phncdn.com\\/videos\\/201705\\/05\\/115421081\\/original\\/(m=eaAaGw-aaaaa)12.jpg","video_title":"Femdom provide post orgasm to a man who is stick on the wall by fucking mac","defaultQuality":[720,480,240,1080],"vcServerUrl":"/svvt/add?stype=evv&svalue=115421081&snonce=rx64s4c09fp08s51&skey=c7a1c4964753b97da669470076cf0c661305f9f1b11faf3e6b72809aad05f7af&stime=1496322293","quality_480p":"https:\\/\\/de.phncdn.com\\/videos\\/201705\\/05\\/115421081\\/480P_600K_115421081.mp4?ttl=1496325893&ri=1024000&rs=912&hash=c7bcb3227c17c7a60a1e06756e05f218","mediaDefinitions":[{"defaultQuality":false,"format":"","quality":"480","videoUrl":"https:\\/\\/de.phncdn.com\\/videos\\/201705\\/05\\/115421081\\/480P_600K_115421081.mp4?ttl=1496325893&ri=1024000&rs=912&hash=c7bcb3227c17c7a60a1e06756e05f218"}],"video_unavailable_country":"false","toprated_url":"https:\\/\\/www.pornhub.com\\/video?o=tr&t=m","mostviewed_url":"https:\\/\\/www.pornhub.com\\/video?o=mv&t=m","browser_url":"https:\\/\\/www.pornhub.com\\/","morefromthisuser_url":"\\/users\\/zxcvbnmr2\\/videos","options":"iframe","cdn":"highwinds","startLagThreshold":1000,"outBufferLagThreshold":2000,"appId":"1111","service":"","mp4_seek":"start","cdnProvider":"hw","thumbs":{"samplingFrequency":2,"type":"normal","cdnType":"regular","urlPattern":"https:\\/\\/ci.phncdn.com\\/videos\\/201705\\/05\\/115421081\\/timeline\\/120x90\\/S{4}.jpg","thumbHeight":"90","thumbWidth":"120"}}']
+Thu, 01 Jun 2017 21:04:55 pornHubSpider.py[line:59] INFO duration:224 title:Femdom provide post orgasm to a man who is stick on the wall by fucking mac image_url:https://ci.phncdn.com/videos/201705/05/115421081/original/(m=eaAaGw-aaaaa)12.jpg link_url:https://www.pornhub.com/view_video.php?viewkey=ph590c790943b46
+Thu, 01 Jun 2017 21:04:55 scraper.py[line:237] DEBUG Scraped from <200 https://www.pornhub.com/embed/ph590c790943b46>
+{'image_url': u'https://ci.phncdn.com/videos/201705/05/115421081/original/(m=eaAaGw-aaaaa)12.jpg',
+ 'link_url': u'https://www.pornhub.com/view_video.php?viewkey=ph590c790943b46',
+ 'quality_480p': u'https://de.phncdn.com/videos/201705/05/115421081/480P_600K_115421081.mp4?ttl=1496325893&ri=1024000&rs=912&hash=c7bcb3227c17c7a60a1e06756e05f218',
+ 'video_duration': u'224',
+ 'video_title': u'Femdom provide post orgasm to a man who is stick on the wall by fucking mac'}

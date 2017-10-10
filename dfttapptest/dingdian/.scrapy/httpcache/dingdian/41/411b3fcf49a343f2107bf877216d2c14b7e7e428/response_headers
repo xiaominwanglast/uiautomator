@@ -1,0 +1,16 @@
+X-Swift-Savetime: Thu, 01 Jun 2017 12:00:04 GMT
+X-Swift-Cachetime: 149
+X-Cache: MISS TCP_MISS dirn:-2:-2
+Content-Encoding: gzip
+Eagleid: 7250ae4714963184040437513e
+Accept-Ranges: bytes
+Cache-Control: max-age=60
+Vary: Accept-Encoding
+Server: Tengine
+Last-Modified: Wed, 01 Mar 2017 10:27:22 GMT
+Etag: "28f9-549a8c20e9de9-gzip"
+Via: cache13.l2et2-1[217,200-0,M], cache17.l2et2-1[218,0], kunlun7.cn115[220,200-0,M], kunlun7.cn115[221,0]
+Date: Thu, 01 Jun 2017 12:01:33 GMT
+Content-Type: text/html
+Age: 0
+Timing-Allow-Origin: *

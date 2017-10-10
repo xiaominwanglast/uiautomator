@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../1.6.0android/.idea/1.6.0android.iml" filepath="$PROJECT_DIR$/../1.6.0android/.idea/1.6.0android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../1.7.0interandroid/.idea/1.7.0interandroid.iml" filepath="$PROJECT_DIR$/../1.7.0interandroid/.idea/1.7.0interandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Interface/.idea/Interface.iml" filepath="$PROJECT_DIR$/../Interface/.idea/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Scrapy_project/.idea/Scrapy_project.iml" filepath="$PROJECT_DIR$/../Scrapy_project/.idea/Scrapy_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TQKB_click/.idea/TQKB_click.iml" filepath="$PROJECT_DIR$/../TQKB_click/.idea/TQKB_click.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Top20/.idea/Top20.iml" filepath="$PROJECT_DIR$/../Top20/.idea/Top20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Top_inter/.idea/Top_inter.iml" filepath="$PROJECT_DIR$/../Top_inter/.idea/Top_inter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android_GUI/.idea/android_GUI.iml" filepath="$PROJECT_DIR$/../android_GUI/.idea/android_GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android_warning/.idea/android_warning.iml" filepath="$PROJECT_DIR$/../android_warning/.idea/android_warning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../click/.idea/click.iml" filepath="$PROJECT_DIR$/../click/.idea/click.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dfttapptest.iml" filepath="$PROJECT_DIR$/.idea/dfttapptest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../guangdong_android_GUI/.idea/guangdong_android_GUI.iml" filepath="$PROJECT_DIR$/../guangdong_android_GUI/.idea/guangdong_android_GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../guangdong_android_warning/.idea/guangdong_android_warning.iml" filepath="$PROJECT_DIR$/../guangdong_android_warning/.idea/guangdong_android_warning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../inter_test/.idea/inter_test.iml" filepath="$PROJECT_DIR$/../inter_test/.idea/inter_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kuaibao_android_GUI/.idea/kuaibao_android_GUI.iml" filepath="$PROJECT_DIR$/../kuaibao_android_GUI/.idea/kuaibao_android_GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kuaibao_android_warning/.idea/kuaibao_android_warning.iml" filepath="$PROJECT_DIR$/../kuaibao_android_warning/.idea/kuaibao_android_warning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../real_inter/.idea/real_inter.iml" filepath="$PROJECT_DIR$/../real_inter/.idea/real_inter.iml" />
+    </modules>
+  </component>
+</project>
