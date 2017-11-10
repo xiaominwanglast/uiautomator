@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="499" it="0" lt="497" ct="492" ts="1510293615891" s="true" lb="JDBC Request_localhost:3306_logindevice" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="182" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="1" ct="0" ts="1510293616427" s="true" lb="JDBC Request_localhost:3306_product" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="82" sby="0" ng="1" na="1"/>
+<sample t="5" it="0" lt="5" ct="0" ts="1510293616442" s="true" lb="JDBC Request_localhost:3306_coupon" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="221" sby="0" ng="1" na="1"/>
+<httpSample t="173" it="0" lt="172" ct="101" ts="1510293616546" s="true" lb="login_changzhou" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="405" sby="350" ng="1" na="1">
+  <assertionResult>
+    <name>json判断data</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json判断status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="158" it="0" lt="149" ct="2" ts="1510293617096" s="true" lb="/v2/message/read" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="286" sby="267" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="119" it="0" lt="118" ct="2" ts="1510293617261" s="true" lb="/v2/message/read" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="286" sby="269" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="30" it="0" lt="30" ct="3" ts="1510293617387" s="true" lb="/v2/message/read" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="286" sby="267" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="18" it="0" lt="17" ct="2" ts="1510293617423" s="true" lb="/v2/message/read" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="286" sby="266" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="3" ts="1510293617448" s="true" lb="/v1/order/query/history/all_orderType=900" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="907" sby="301" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_total</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="18" it="0" lt="18" ct="2" ts="1510293617492" s="true" lb="/v1/order/query/history/all_orderType=900" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="299" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_total</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="32" it="0" lt="31" ct="2" ts="1510293617517" s="true" lb="/v1/order/query/history/all_orderType=900" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="907" sby="299" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_total</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="2" ts="1510293617558" s="true" lb="/v1/order/query/history/all_orderType=900" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="299" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_total</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="2" ts="1510293617583" s="true" lb="/v1/order/query/history/all_orderType=900" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="299" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_total</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="20" it="0" lt="20" ct="5" ts="1510293617606" s="true" lb="/v1/order/query/history/all_orderType=900" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="300" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_total</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="2" ts="1510293617632" s="true" lb="/v1/order/query/history/all_orderType=900" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="300" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_total</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="12" it="0" lt="12" ct="2" ts="1510293617652" s="true" lb="/v1/order/query/history/all_orderType=900" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="301" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_total</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="2" ts="1510293617670" s="true" lb="/v1/order/query/history/all_state=0" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="297" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_total</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="2" ts="1510293617690" s="true" lb="/v1/order/query/history/all_state=0" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="298" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_total</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="44" it="0" lt="43" ct="6" ts="1510293617711" s="true" lb="/v1/user/feedBack/add" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="286" sby="307" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="2" ts="1510293617769" s="true" lb="/v1/user/feedBack/add" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="286" sby="307" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="33" it="0" lt="33" ct="2" ts="1510293617813" s="true" lb="/v1/user/feedBack/add" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="286" sby="307" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="29" it="0" lt="29" ct="1" ts="1510293617850" s="true" lb="/v2/user/purchase/record_firstCatalogId=*" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="297" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="26" it="0" lt="26" ct="2" ts="1510293617883" s="true" lb="/v2/user/purchase/record_firstCatalogId=*" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="297" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="29" it="0" lt="29" ct="2" ts="1510293617914" s="true" lb="/v2/user/purchase/record_firstCatalogId=*" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="297" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="1" ts="1510293617949" s="true" lb="/v2/user/purchase/record_firstCatalogId=*" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="297" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="27" it="0" lt="27" ct="5" ts="1510293617975" s="true" lb="/v2/user/purchase/record_firstCatalogId=*" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="297" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="26" it="0" lt="26" ct="3" ts="1510293618007" s="true" lb="/v2/user/purchase/record_firstCatalogId=*" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="297" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1510293618037" s="true" lb="/v2/user/purchase/record_firstCatalogId=*" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="297" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="22" it="0" lt="22" ct="2" ts="1510293618064" s="true" lb="/v2/user/purchase/record_firstCatalogId=*" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="298" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="23" it="0" lt="23" ct="1" ts="1510293618090" s="true" lb="/v2/user/purchase/record_firstCatalogId=*" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="298" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="180" it="0" lt="180" ct="2" ts="1510293618116" s="true" lb="/v1/user/vipInfo" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="370" sby="229" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_belongsVip</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="68" it="0" lt="67" ct="2" ts="1510293618301" s="true" lb="/v2/home/index" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="1991" sby="246" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="58" it="0" lt="58" ct="3" ts="1510293618378" s="true" lb="/v2/user/interest" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="1047" sby="267" ng="1" na="1">
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="133" it="0" lt="133" ct="3" ts="1510293618447" s="true" lb="/v2/user/getNews" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="316" sby="248" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_newMessages</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_newRedGifts</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_newGoupons</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="139" it="0" lt="139" ct="3" ts="1510293618590" s="true" lb="/v3/user/myInfo" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="634" sby="247" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_store_id</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_store_CityId</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" it="0" lt="10" ct="2" ts="1510293618734" s="true" lb="/v2/home/enableCity" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="299" sby="251" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_data</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="14" it="0" lt="13" ct="2" ts="1510293618748" s="true" lb="/v1/user/info/hotline" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="387" sby="253" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_data_telephoneNum_number</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_data_qq_number</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="2" ts="1510293618768" s="true" lb="/v2/home/isNewStoreInfo" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="329" sby="236" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_isOld</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="112" it="0" lt="112" ct="2" ts="1510293618784" s="true" lb="/v2/message/count" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="498" sby="230" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="15" it="0" lt="14" ct="2" ts="1510293618899" s="true" lb="/v2/message/list/notice" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="273" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="1" ts="1510293618917" s="true" lb="/v2/message/switch_post" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="286" sby="278" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="14" it="0" lt="14" ct="2" ts="1510293618934" s="true" lb="/v2/message/switch_get" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="338" sby="231" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="154" it="0" lt="140" ct="2" ts="1510293618951" s="true" lb="/v1/catalog/first/*/goods" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="1910" sby="281" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="135" it="0" lt="135" ct="2" ts="1510293619128" s="true" lb="/v1/catalog/second/*/goods" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="1670" sby="282" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="125" it="0" lt="125" ct="3" ts="1510293619272" s="true" lb="/v1/catalog/goods/*/rank" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="984" sby="242" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="26" it="0" lt="26" ct="2" ts="1510293619400" s="true" lb="/v3/user/redGift/useNow" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="547" sby="274" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="2" ts="1510293619431" s="true" lb="/v1/user/coupon/list/useNow" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="323" sby="278" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="49" it="0" lt="49" ct="2" ts="1510293619449" s="true" lb="/v2/promotion/fullGift/list" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="969" sby="240" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="28" it="0" lt="27" ct="2" ts="1510293619502" s="true" lb="/v1/user/dadou/log" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="552" sby="268" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_dadou</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="20" it="0" lt="20" ct="2" ts="1510293619533" s="true" lb="/v3/user/redGift/unused" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="547" sby="280" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="23" it="0" lt="22" ct="2" ts="1510293619556" s="true" lb="/v3/user/redGift/used" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="565" sby="271" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="27" it="0" lt="26" ct="2" ts="1510293619583" s="true" lb="/v3/user/redGift/overtime" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="791" sby="275" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="254" it="0" lt="254" ct="1" ts="1510293619613" s="true" lb="/v1/user/coupon/list/used" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="632" sby="275" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="257" it="0" lt="257" ct="3" ts="1510293619873" s="true" lb="/v1/user/coupon/list/overtime" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="555" sby="279" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="72" it="0" lt="72" ct="3" ts="1510293620136" s="true" lb="/v2/user/views/app" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="1280" sby="268" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_time</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="2" ts="1510293620211" s="true" lb="/v2/statistics/count" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="309" sby="270" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_sum</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="11" it="0" lt="11" ct="2" ts="1510293620224" s="true" lb="/v1/user/info/maintenance/qr" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="349" sby="260" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="25" it="0" lt="25" ct="2" ts="1510293620237" s="true" lb="/v2/user/purchase/record" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="274" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="217" it="0" lt="217" ct="2" ts="1510293620265" s="true" lb="/v1/user/vipStatistics" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="380" sby="235" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="24" it="0" lt="24" ct="3" ts="1510293620489" s="true" lb="/v1/user/vipPrivileges" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="1008" sby="235" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言_experience</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言_privilege</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="62" it="0" lt="62" ct="3" ts="1510293620531" s="true" lb="/v1/cart/list/combine" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="992" sby="234" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_orderLimitMoney</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="19" it="0" lt="19" ct="2" ts="1510293620599" s="true" lb="/v1/user/allRedGift/canUse" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="306" sby="267" ng="1" na="1">
+  <assertionResult>
+    <name>json_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="15" it="0" lt="15" ct="2" ts="1510293620624" s="false" lb="/v2/redGift/obtain" rc="400" rm="Bad Request" tn="常州用户登陆 1-1" dt="text" by="398" sby="268" ng="1" na="1">
+  <assertionResult>
+    <name>json_message</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Value expected to be &apos;领取成功&apos;, but found &apos;child &quot;redGiftId&quot; fails because [&quot;redGiftId&quot; must be a number]&apos;</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>No results for path: $[&apos;tag&apos;]</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>No results for path: $[&apos;status&apos;]</failureMessage>
+  </assertionResult>
+</httpSample>
+<sample t="39" it="0" lt="0" ct="38" ts="1510293620645" s="false" lb="JDBC Request_192.168.1.101:3306_storeownredgifts" rc="42000 1064" rm="com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &apos;&apos; at line 1" tn="常州用户登陆 1-1" dt="text" by="146" sby="0" ng="1" na="1"/>
+<httpSample t="156" it="0" lt="156" ct="4" ts="1510293620688" s="true" lb="/v2/user/coupon/addCoupon" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="308" sby="276" ng="1" na="1">
+  <assertionResult>
+    <name>json_message</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="258" it="0" lt="258" ct="3" ts="1510293620855" s="true" lb="/v1/user/coupon/list/unused" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="551" sby="265" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="18" it="0" lt="17" ct="3" ts="1510293621123" s="true" lb="/v1/cart/update" rc="200" rm="OK" tn="常州用户登陆 1-1" dt="text" by="308" sby="285" ng="1" na="1">
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_shoppingCart_count</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+</httpSample>
+<httpSample t="17" it="0" lt="17" ct="3" ts="1510293621170" s="false" lb="/v2/order/place/new" rc="400" rm="Bad Request" tn="常州用户登陆 1-1" dt="text" by="421" sby="381" ng="1" na="1">
+  <assertionResult>
+    <name>json_orderSum</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>No results for path: $[&apos;orderSum&apos;]</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_totalAmount</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>No results for path: $[&apos;totalAmount&apos;]</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_phoneNum</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Missing property in path $[&apos;baseInfo&apos;]</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_tag</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>No results for path: $[&apos;tag&apos;]</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_status</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>No results for path: $[&apos;status&apos;]</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_quickOrder</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>No results for path: $[&apos;quickOrder&apos;]</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>json_off</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>No results for path: $[&apos;off&apos;]</failureMessage>
+  </assertionResult>
+</httpSample>
+
+</testResults>
