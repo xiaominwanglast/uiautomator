@@ -2,14 +2,14 @@
 import requests
 import json
 import time
-url='http://api.icaipiao123.com/api/v7/social/newlist?count=1000&lottery_key=shuangseqiu&max_id=0'
+url='http://api.icaipiao123.com/api/v7/social/newlist?count=500&lottery_key=shuangseqiu&max_id=0'
 headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',}
 rq=requests.get(url=url,headers=headers)
 js_rq=json.loads(rq.text)
 new_list=[]
 image_list=[]
 for i in js_rq['data']:
-    if time.localtime(int(i['publish_time'])/1000).tm_mday>=27:
+    if time.localtime(int(i['publish_time'])/1000).tm_mday==22:
         print i['content']
         if i['images']:
             image_list.append(i['images'])
@@ -174,5 +174,12 @@ print 15 ,'show', q15
 print 16 ,'show', q16
 
 
-
-
+from matplotlib import pyplot as plt
+def fuwu():
+    list_type=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+    data_type=[s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32, s33,q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16]
+    plt.xlabel(u"CP")
+    plt.ylabel(u"GL")
+    plt.bar(range(len(data_type)), data_type, tick_label=list_type)
+    plt.show()
+fuwu()
