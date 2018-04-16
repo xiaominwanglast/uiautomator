@@ -175,8 +175,8 @@ from matplotlib import pyplot as plt
 def fuwu():
     list_type=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33,34,35,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     data_type=[s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32, s33,s34,s35,q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12]
-    plt.xlabel(u"彩票数字前区35和后区12")
-    plt.ylabel(u"每个数字对应出现购买次数")
+    plt.xlabel(u"x")
+    plt.ylabel(u"y")
     plt.bar(range(len(data_type)), data_type, tick_label=list_type)
     plt.show()
 fuwu()
